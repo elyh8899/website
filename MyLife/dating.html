@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Dating Life - Nguyet Tuyen Hoang</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+    <header>
+        <h1>My Dating Life</h1>
+        <nav>
+            <a href="../index.html">Home</a>
+            <a href="../about.html">About Me</a>
+            <a href="../projects.html">Projects</a>
+            <a href="../blog.html">Blog</a>
+            <a href="../contact.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Love and Adventures</h2>
+            <p>Dating has been a wonderful journey for me. I’ve learned a lot about myself and what I value in a relationship.</p>
+            <h3>Memorable Dates</h3>
+            <p>From romantic dinners to spontaneous road trips, each date has been unique and special.</p>
+            <h3>What I've Learned</h3>
+            <p>Through dating, I’ve discovered the importance of communication and understanding. It’s all about enjoying the journey together!</p>
+        </section>
+        
+        <div id="secret-section">
+            Secret love 💖💖
+        </div>
+    
+        <script>
+            document.getElementById('secret-section').onclick = function() {
+                var anniversary = prompt("What's our anniversary?");
+                if (anniversary === '05/10/2004') {
+                    window.location.href = '../xin.html';
+                } else {
+                    alert("Incorrect date! Please try again.");
+                }
+            };
+        </script>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Nguyet Tuyen Hoang</p>
+    </footer>
+</body>
+</html>
